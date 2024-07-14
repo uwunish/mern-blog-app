@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.app-container {
+	margin: 0 20px;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-container h3 {
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-style: italic;
+	color: #44ae44;
+}
+
+.header-container ul {
+	display: flex;
+	list-style-type: none;
+	gap: 20px;
+}
+
+.header-container .link {
+	font-weight: 400;
+	color: #333;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.header-container .link:hover {
+	color: #777;
+}
+
+.add-blog-container {
+	padding-top: 20px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 400px;
+}
+
+.home-container {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.blog-list-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.blog-item-container {
+	border: 1px solid;
+	padding: 10px;
+	background-color: #d1fbfd;
+}
+
+.edit-delete-icon-container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
